@@ -16,7 +16,7 @@ public class SampleClass {
 		}
 		
 		NitAnnotationReader readerB = new NitAnnotationReader();
-		List<String> listB = readerB.aReader.fetch();
+		List<String> listB = readerB.reader.fetch();
 		for (String value : listB) {
 			System.out.println(value);
 		}
